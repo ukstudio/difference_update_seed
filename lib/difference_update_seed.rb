@@ -23,6 +23,8 @@ module DifferenceUpdateSeed
           puts "Do nothing. ID #{record.id}"
         end
       end
+
+      record
     end
   end
 end

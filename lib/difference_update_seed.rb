@@ -1,4 +1,5 @@
 require "difference_update_seed/version"
+require "active_record"
 
 module DifferenceUpdateSeed
   refine ActiveRecord::Base.singleton_class do
